@@ -19,9 +19,7 @@ The aim of this project is to:
 
 ```
 📁 data/                   # Excel files for each day of the week
-📁 notebooks/              # Jupyter notebooks for analysis and visualization
-📁 plots/                  # Output plots (e.g., correlation heatmaps)
-📄 requirements.txt        # Required packages
+📄 Analysis.ipynb           # Jupyter notebooks for analysis and visualization                 
 📄 README.md               # Project documentation (this file)
 ```
 
@@ -65,28 +63,6 @@ The aim of this project is to:
 - `matplotlib`, `seaborn` for visualization  
 - `openpyxl` for Excel handling  
 - Jupyter Notebooks for iterative exploration
-
----
-
-## 🚀 Getting Started
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/tti-commune-analysis.git
-   cd tti-commune-analysis
-   ```
-
-2. Create a virtual environment and install requirements:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # or venv\Scripts\activate on Windows
-   pip install -r requirements.txt
-   ```
-
-3. Open notebooks:
-   ```bash
-   jupyter notebook
-   ```
 
 ---
 
